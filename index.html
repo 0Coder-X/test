@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tech Ware</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="sticky">
+      <a href="#" class="logo">Tech Ware</a>
+      <div class="toggle" onclick="toggleClassName();"></div>
+    </header>
+    <div class="sidebar"  data-sal="slide-right" data-sal-duration="500">
+      <ul>
+        <li><a href="#home" onclick="toggleClassName();">Home</a></li>
+        <li><a href="#Why choose us" onclick="toggleClassName();">Why choose us</a></li>
+        <li><a href="#Our services" onclick="toggleClassName();">Our services</a></li>
+        <li><a href="#contact" onclick="toggleClassName();">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="banner"  data-sal="slide-right" data-sal-duration="500" id="home">
+      <img class="pp" src="C:\Users\salim\Desktop\html\img\1.jpg" alt="">
+      <div class="content" data-sal="slide-left" data-sal-duration="500">
+
+        <h2>Welcome to Tech Ware</h2>
+        <p>A platform that offers a solution to your digital needs at affordable prices.</p>
+      </div>
+    </div>
+
+    <section class="why  " id="why">
+      <div class="contentBx" data-sal="slide-right" data-sal-duration="500">
+        <h2 class="heading">Why choose us</h2>
+        <p class="text">With Technology a part of our daily life, Using the internet became part of our daily-life.
+          What we offer is recharge of Airtime, sale of data bundles at affordable prices, CableTV (DStv, StarTimes), Electrical bill payment and more.
+        <ul>
+          <li>Online 24/7</li>
+          <li>Fast response</li>
+          <li>100% legit</li>
+          <li>Available at your convenience</li>
+          <li>100% secure</li>
+        </ul>
+        </p>
+        <h3 class="heading" data-sal="slide-right" data-sal-duration="500">How to make payment</h3>
+      <p class="text">To make your payment, there are two methods.</p>
+      <ul>
+        <li>  <p class="text">Using mobile banking with your phone you deposite the money to into (6949374939) this account, and send the recipt ofthe transaction</p></li>
+        <li><p class="text">Last method is by using point of sale service (POS) at any service provider.</p></li>
+
+      </ul>
+
+      </div>
+      <div class="imgBx" data-sal="slide-left" data-sal-duration="500"></div>
+    </section>
+
+    <section class="us" id="us">
+      <h2 class="heading" data-sal="slide-right" data-sal-duration="500">Our Services</h2>
+      <p class="text" data-sal="slide-left" data-sal-duration="500"> Our team is made up of tech enthusiast, we aim to provide you with the most affordable
+        services. contact us through 0913584535, TechWare@gmail.com, use internet banking and
+        transfer the money, Pay your biils in a swift from the comfort of your house. Our data palns are also compatible with routers, buy a router plan for a special discount.</p>
+      <div class="container"  data-sal="slide-right" data-sal-duration="500">
+        <img class="tw" src="C:\Users\salim\Desktop\html\img\2.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="technolgy" id="technolgy">
+      <div class="contentBx" data-sal="slide-right" data-sal-duration="500">
+        <h2 class="heading">We use state of the art technology</h2>
+        <p class="text">At Tech Ware, We sell data plans at affordable prices  along with airtime for local network providers such as MTN, Airtel, 9Mobile and GLO.</p>
+<p class="text">Along with our fast respnse time, Tech Ware aims to deliver its service as soon as possible.</p>
+      </div>
+      <div class="imgBx" data-sal="slide-left" data-sal-duration="500">
+        <img src="C:\Users\salim\Desktop\html\img\3.jpg" alt="">
+        <img src="C:\Users\salim\Desktop\html\img\8.jpg" alt="">
+        <img src="C:\Users\salim\Desktop\html\img\9.jpg" alt="">
+        <img src="C:\Users\salim\Desktop\html\img\14.jpg" alt="">
+
+      </div>
+    </section>
+
+<section class="pay">
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="fm" id="fm">
+<center>
+      <div class="con"  data-sal="slide-right" data-sal-duration="500">
+        <form class="form " id="login">
+          <h1 class="form__title">Login</h1>
+          <div class="form__message form__message--error"></div>
+          <div class="form__input-group" >
+            <input type="text" class="form__input" autofocus placeholder="Username or email">
+            <div class="form__input-error-message" data-sal="slide-right" data-sal-duration="500"></div>
+          </div>
+          <div class="form__input-group" data-sal="slide-right" data-sal-duration="500">
+            <input type="password" class="form__input" autofocus placeholder="Password">
+            <div class="form__input-error-message" data-sal="slide-right" data-sal-duration="500"></div>
+          </div>
+          <button class="form__button" type="submit">Continue</button>
+          <p class="form__text">
+            <a href="#" class="form__link">Forgot your password?</a>
+          </p>
+          <p class="form__text">
+            <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
+          </p>
+        </form>
+        <form class="form form--hidden" id="createAccount">
+          <h1 class="form__title">Create Account</h1>
+          <div class="form__message form__message--error" data-sal="slide-right" data-sal-duration="500"></div>
+          <div class="form__input-group" data-sal="slide-right" data-sal-duration="500">
+            <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
+            <div class="form__input-error-message" data-sal="slide-right" data-sal-duration="500"></div>
+          </div>
+          <div class="form__input-group" data-sal="slide-right" data-sal-duration="500">
+            <input type="text" class="form__input" autofocus placeholder="Email Address">
+            <div class="form__input-error-message" data-sal="slide-right" data-sal-duration="500"></div>
+          </div>
+          <div class="form__input-group">
+            <input type="password" class="form__input" autofocus placeholder="Password">
+            <div class="form__input-error-message" data-sal="slide-right" data-sal-duration="500"></div>
+          </div>
+          <div class="form__input-group" data-sal="slide-right" data-sal-duration="500">
+            <input type="password" class="form__input" autofocus placeholder="Confirm password">
+            <div class="form__input-error-message"data-sal="slide-right" data-sal-duration="500"></div>
+          </div>
+          <button class="form__button" type="submit">Continue</button>
+          <p class="form__text">
+            <a class="form__link" href="./" id="linkLogin">Already have an account? Sign in</a>
+          </p>
+        </form>
+      </div>
+</center>
+    </div>
+</section>
+
+  <section class="footer">
+    <p class="text">Design & Developed By Salim Ahmed Sambo</p>
+    <ul>
+      <p class="text">Follow us on : </p>
+      <li><a href="#"><img src="C:\Users\salim\Desktop\html\img\facebook.png"></a></li>
+      <li><a href="#"><img src="C:\Users\salim\Desktop\html\img\ig.jpg"></a></li>
+      <li><a href="#"><img src="C:\Users\salim\Desktop\html\img\wa.jpg"></a></li>
+    </ul>
+  </section>
+
+
+
+
+
+  <script src="main.js">
+
+  </script>
+  <script type="text/javascript" src="sal.js"></script>
+  <script type="text/javascript">
+    sal({
+      once: false,
+    });
+
+
+    function toggleClassName() {
+      var sidebar = document.querySelector('.sidebar')
+      var wrapper = document.querySelector('.wrapper')
+      var toggle = document.querySelector('.toggle')
+
+      sidebar.classList.toggle('active')
+      wrapper.classList.toggle('active')
+      toggle.classList.toggle('active')
+
+    }
+    window.addEventListener('scroll', function() {
+
+      var header = document.querySelector('header');
+      header.classList.toggle("sticky", window.scrollY > 0);
+
+
+    })
+  </script>
+</body>
+
+</html>
